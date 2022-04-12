@@ -1,0 +1,229 @@
+
+p {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: .1em;
+      padding-left: 15px;
+
+  }
+
+  p:hover {
+    background-color: whitesmoke;
+    color: #526E71;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+
+  body {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .1em;
+    padding-left: 15px;
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .1em;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.flex-container {
+display: flex;
+justify-content: center;
+min-width: 700px;
+}
+
+.sideBar {
+ display: flex;
+ background-color: #526E71;
+ min-width:200px;
+ flex-direction:column;
+ gap: 20px;
+ min-height: auto;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px; 
+}
+
+.aboutMe {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top:60px;
+
+}
+
+.UXUI {
+    padding-left: 30px;
+}
+
+.campaigns {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(70, 53, 53);
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project1 { 
+    border-style: solid;
+    border-color: grey;
+    border-width: .25px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+    background: url(./images/PUB.png);
+    background-size: cover;
+}
+
+.project2 {
+    border-style: solid;
+    border-color: grey;
+    border-width: .25px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+    background: url(./images/SafeTravels.png);
+    background-size: cover;
+}
+
+.project3 {
+    border-style: solid;
+    border-color: grey;
+    border-width: .25px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+    background: url(./images/USDA.png);
+    background-size: cover;
+}
+
+.project4 {
+    grid-area: p4;
+    align-self: center;
+}
+
+
+
+
+.content {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: (auto);
+}
+
+.pinkBox {
+    background-color: #f7e9e7a2;
+    gap: 20px;
+    height: 200px;
+    padding: 15px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.hello {
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 150px; 
+}
+
+.aboutIntro {
+    padding: 30px;
+    grid-column: 1;
+    grid-row: 2;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinkBoxTwo {
+    background-color: #f7e9e780;
+    gap: 20px;
+    padding: 15px;
+    grid-column: 1;
+}
+
+.skills {
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d d d"
+    "e e e";
+}
+
+.a {
+    grid-area: a;
+    padding: 20px;
+}
+
+.b {
+    grid-area: b;
+    padding: 20px;
+}
+
+.c {
+    grid-area: c;
+    padding: 20px;
+}
+
+.d {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.e{
+    grid-area: e;
+    padding: 20px;  
+    grid-template-rows: auto;
+}
